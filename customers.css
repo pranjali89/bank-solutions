@@ -1,0 +1,85 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+#nav-bar
+{
+	background-color:darkcyan;
+	position: sticky;
+	top:0;
+	float: right;
+    font-weight: 500;
+}
+
+.navbar
+{
+	padding: 0;
+}
+
+.navbar-nav li
+{
+	padding: 0 10px;
+}
+.navbar-nav li a
+{
+color:rgb(159, 159, 14);
+font-weight:600;
+float:right;
+text-align:left;
+}
+
+.navbar-la{
+    font-size: 1.5rem;
+    color: #18032fbb;
+    font-family: 'Roboto Condensed', sans-serif;
+    padding-left: 20px;
+    outline: black;
+
+}
+
+.navbar-la:hover{
+    color: rgb(13, 12, 19);
+    font-size: 1.8rem;
+    
+
+}
+
+.nav-link{
+    float: right;
+    color: red ;
+    font-size: medium;
+
+}
+
+
+#main
+{
+	text-align: center;
+
+    background-color:rgb(37, 37, 80);
+}
+
+#main .btn .btn-info{
+    color: blue;
+    outline: black;
+
+}
+.my-info{
+    padding: 2rem 5rem;
+}
+
+.btn-info{
+    
+    background-color: rgb(129, 121, 121);
+    color: rgb(23, 93, 126);
+    margin-left: 5px;
+    cursor: pointer;
+   
+    transition: all 0.3s;
+    padding: 5px 5px;
+}
+
+.btn-info:hover{
+    background-color: pink;
+} 
